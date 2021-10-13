@@ -45,50 +45,48 @@ body, p {
 
 h1 {
 	color: #161223;
-	font-weight: 600;
 	font-size: 2.5rem;
 	line-height: 3.25rem;
-	font-family: "Poppins"
+	font-family: 'Sacramento', cursive;
 }
 
 h2 {
 	color: #161223;
-	font-weight: 600;
 	font-size: 2rem;
 	line-height: 2.5rem;
-	font-family: "Poppins"
+	font-family: 'Sacramento', cursive;
 }
 
 h3 {
 	color: #161223;
-	font-weight: 600;
 	font-size: 1.75rem;
 	line-height: 2.25rem;
-	font-family: "Poppins"
+	font-family: "Poppins";
+	font-weight: 600;
 }
 
 h4 {
 	color: #161223;
-	font-weight: 600;
 	font-size: 1.5rem;
 	line-height: 2rem;
-	font-family: "Poppins"
+	font-family: "Poppins";
+	font-weight: 600;
 }
 
 h5 {
 	color: #161223;
-	font-weight: 600;
 	font-size: 1.25rem;
 	line-height: 1.625rem;
-	font-family: "Poppins"
+	font-family: "Poppins";
+	font-weight: 600;
 }
 
 h6 {
 	color: #161223;
-	font-weight: 600;
 	font-size: 1rem;
 	line-height: 1.375rem;
-	font-family: "Poppins"
+	font-weight: 600;
+		font-family: "Poppins";
 }
 
 .p-large {
@@ -155,6 +153,7 @@ a:hover {
 .bg-gray {
 	/* background-color: #f7f9fd; */
 		background-color:#FFE78B;
+		background-image: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);
 }
 
 .btn-solid-reg {
@@ -323,7 +322,7 @@ a:hover {
 /*     Navigation     */
 /**********************/
 .navbar {
-	background-color: #161223;
+	background-color: #9A1310;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0.875rem;
@@ -336,7 +335,8 @@ a:hover {
 }
 
 .navbar .logo-image{
-	background: #FFDB54;
+	/* background: #FFDB54; */
+	background: #fff;
     border-radius: 35px;
     padding: 0.25rem;
 }
@@ -508,10 +508,12 @@ a:hover {
 }
 
 .header .h1-large {
+	font-family: 'Sacramento', cursive;
 	margin-bottom: 2.25rem;
 	color: #ffffff;
 	font-size: 3rem;
 	line-height: 3.75rem;
+	font-weight: 500;
 }
 
 .h2-large {
@@ -531,8 +533,11 @@ a:hover {
 	text-align: center;
 }
 
-.cards-1 .h2-heading {
+.h2-heading {
+	font-family: 'Sacramento', cursive;
+	font-size:3rem;
 	margin-bottom: 1.125rem;
+	font-weight: 500;
 }
 
 .cards-1 .p-heading {
@@ -542,7 +547,7 @@ a:hover {
 
 .cards-1 .card {
 	margin-bottom: 4rem;
-	border: none;
+	/* border: none; */
 	border-radius: 6px;
 }
 
@@ -802,6 +807,8 @@ a:hover {
 .form-1 .h2-heading {
 	margin-bottom: 1.125rem;
 	color: #ffffff;
+	font-family: 'Sacramento', cursive;
+	font-weight: 500;
 }
 
 .form-1 .p-heading {
@@ -938,7 +945,8 @@ a:hover {
 
 .copyright p,
 .copyright a {
-	color: #9ba3b1;
+	/* color: #9ba3b1; */
+	color:#fff;
 	text-decoration: none;
 }
 
@@ -977,7 +985,7 @@ a:hover {
 /***********************/
 .ex-header {
 	padding-top: 8.5rem;
-	padding-bottom: 4rem;
+	/* padding-bottom: 4rem; */
 	/* background-color: #161223; */
 	background-color:#9A1310;
 }
@@ -1073,6 +1081,10 @@ a:hover {
 		padding: 1.75rem 2rem 0.875rem 2rem;
 	}
 	/* end of extra pages */
+
+	.h2-heading {
+    font-size: 3rem;
+}
 }
 /* end of min-width 768px */
 
@@ -1082,9 +1094,10 @@ a:hover {
 
 	/* General Styles */
 	.h2-heading {
-		width: 35.25rem;
+		/* width: 35.25rem; */
 		margin-right: auto;
 		margin-left: auto;
+		font-size: 4.5rem;
 	}
 
 	.p-heading {
@@ -1455,11 +1468,11 @@ a:hover {
 }
 
 @media (min-width: 1200px) {
- .skill-box {
-    display: inline-block;
-    width: 330px;
-    vertical-align: top;
-}
+	.skill-box {
+		display: inline-block;
+		width: 330px;
+		vertical-align: top;
+	}
 }
 .image-container {
     margin-bottom: 4.75rem;
@@ -1467,4 +1480,12 @@ a:hover {
 
  .skill-box {
     margin-bottom: 2.5rem;
+}
+
+.testimonial-image {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 2.25rem;
+    border-radius: 50%;
+	align-self: center;
 }
